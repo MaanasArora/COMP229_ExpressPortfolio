@@ -25,9 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca261ca-81ee-4686-bbf3-551668a4d02a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/above.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/above.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/projects.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/projects.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602464896556</updated>
-      <workItem from="1602464897651" duration="6283000" />
+      <workItem from="1602464897651" duration="6552000" />
     </task>
     <task id="LOCAL-00001" summary="add routes and pages">
       <created>1602469521735</created>
@@ -89,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602470832916</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add logo">
+      <created>1602471394642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602471394642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +120,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add routes and pages" />
     <MESSAGE value="add header and footer nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="add header and footer nav" />
+    <MESSAGE value="add logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add logo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602465367504">
@@ -130,5 +136,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="598" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602467669049" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602471400675">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602471400675" />
   </component>
 </project>
