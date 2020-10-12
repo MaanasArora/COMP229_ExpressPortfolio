@@ -25,9 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca261ca-81ee-4686-bbf3-551668a4d02a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/partials/above.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/above.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/below.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/below.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/projects.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/projects.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\src\COMP229_ExpressPortfolio\public\images" />
       <recent name="C:\src\COMP229_ExpressPortfolio\public" />
     </key>
   </component>
@@ -71,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602464896556</updated>
-      <workItem from="1602464897651" duration="5828000" />
+      <workItem from="1602464897651" duration="6283000" />
     </task>
     <task id="LOCAL-00001" summary="add routes and pages">
       <created>1602469521735</created>
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602469521735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add header and footer nav">
+      <created>1602470832916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602470832916</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,7 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add routes and pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="add routes and pages" />
+    <MESSAGE value="add header and footer nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="add header and footer nav" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602465367504">
