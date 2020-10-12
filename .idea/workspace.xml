@@ -25,18 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca261ca-81ee-4686-bbf3-551668a4d02a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Maanas Arora.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/about.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/projects.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/services.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/partials/above.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/above.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/below.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/below.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +71,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602464896556</updated>
-      <workItem from="1602464897651" duration="4516000" />
+      <workItem from="1602464897651" duration="5828000" />
     </task>
+    <task id="LOCAL-00001" summary="add routes and pages">
+      <created>1602469521735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602469521735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +102,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add routes and pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add routes and pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602465367504">
