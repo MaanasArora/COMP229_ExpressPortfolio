@@ -1,0 +1,22 @@
+<%- include('partials/above'); -%>
+
+<div class="container p-5">
+  <h1 class="display-5">Contact Update</h1>
+  <form action="secure/update/<%= id %>">
+    <div class="form-group">
+      <label for="name">Contact Name</label>
+      <input id="name" name="name" />
+    </div>
+    <div class="form-group">
+      <label for="number">Contact Number</label>
+      <input id="number" name="number" />
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input id="email" name="email" />
+    </div>
+    <input type="submit" value="Update" />
+  </form>
+</div>
+
+<%- include('partials/below'); -%>

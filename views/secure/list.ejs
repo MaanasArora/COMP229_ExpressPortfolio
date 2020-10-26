@@ -1,0 +1,24 @@
+<%- include('partials/above'); -%>
+
+<div class="container p-5">
+  <h1 class="display-5">Contact List</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Contact Name</th>
+        <th scope="col">Contact Number</th>
+        <th scope="col">Email Address</th>
+      </tr>
+    </thead>
+    <% contacts.forEach(function(contact){ %>
+    <tr>
+      <td><%= contact.name %></td>
+      <td><%= contact.number %></td>
+      <td><%= contact.email %></td>
+      <td><button>Update</button></td>
+    </tr>
+    <% }); %>
+  </table>
+</div>
+
+<%- include('partials/below'); -%>
