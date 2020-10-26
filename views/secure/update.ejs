@@ -2,18 +2,33 @@
 
 <div class="container p-5">
   <h1 class="display-5">Contact Update</h1>
-  <form action="secure/update/<%= id %>">
+  <form action="/secure/update?id=<%= contact.id %>" method="POST">
     <div class="form-group">
       <label for="name">Contact Name</label>
-      <input id="name" name="name" />
+      <input
+        class="form-control"
+        id="name"
+        name="name"
+        value="<%= contact.name %>"
+      />
     </div>
     <div class="form-group">
       <label for="number">Contact Number</label>
-      <input id="number" name="number" />
+      <input
+        class="form-control"
+        id="number"
+        name="number"
+        value="<%= contact.number %>"
+      />
     </div>
     <div class="form-group">
       <label for="email">Email Address</label>
-      <input id="email" name="email" />
+      <input
+        class="form-control"
+        id="email"
+        name="email"
+        value="<%= contact.email %>"
+      />
     </div>
     <input type="submit" value="Update" />
   </form>

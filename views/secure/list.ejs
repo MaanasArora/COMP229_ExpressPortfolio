@@ -15,7 +15,11 @@
       <td><%= contact.name %></td>
       <td><%= contact.number %></td>
       <td><%= contact.email %></td>
-      <td><button>Update</button></td>
+      <td>
+        <a href="/secure/update?id=<%= contact.id %>"
+          ><button>Update</button></a
+        >
+      </td>
     </tr>
     <% }); %>
   </table>

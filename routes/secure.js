@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
+const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 
 const User = require("../models/user");
@@ -49,7 +50,37 @@ router.get("/list", function (req, res, next) {
 
 router.get("/update", function (req, res, next) {
   if (req.cookies.username) {
-    res.render("secure/update", { title: "Contact Update (Maanas Arora)" });
+    Contact.findById(new mongoose.Types.ObjectId(req.query.id), function (
+      err,
+      contact
+    ) {
+      if (err) throw err;
+
+      res.render("secure/update", {
+        title: "Contact Update (Maanas Arora)",
+        contact: contact,
+      });
+    });
+  } else {
+    res.redirect("/secure/login");
+  }
+});
+
+router.post("/update", function (req, res, next) {
+  if (req.cookies.username) {
+    Contact.updateOne(
+      { _id: new mongoose.Types.ObjectId(req.query.id) },
+      {
+        name: req.body.name,
+        number: req.body.number,
+        email: req.body.email,
+      },
+      function (err, result) {
+        if (err) throw err;
+
+        res.redirect("/secure/list");
+      }
+    );
   } else {
     res.redirect("/secure/login");
   }
